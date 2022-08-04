@@ -11,6 +11,14 @@ def sum_to_zero(my_list):
                 return i1, j2
     return None
 
+my_list = [4, 5, -7, -3, 8, -4]
+start_time = time.time()
+result = sum_to_zero(my_list)
+end_time = time.time()
+total_time = end_time - start_time
+print("Input:", my_list)
+print("Output:", sum_to_zero(my_list))
+print("Time", total_time)
 
 # Test Case 1
 my_list = {4, 5, -7, -3, 8, -4}
@@ -18,7 +26,7 @@ start_time = time.time()
 result = sum_to_zero(my_list)
 end_time = time.time()
 total_time = end_time - start_time
-print("Input:", my_list)
+print("\nInput:", my_list)
 print("Output:", sum_to_zero(my_list))
 print("Time", total_time)
 
